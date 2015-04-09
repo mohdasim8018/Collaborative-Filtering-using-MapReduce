@@ -1,0 +1,17 @@
+Obective:
+--------
+Mapper and Reducer to compute similarity scores for all pairs
+of movies. Generate top 100 movie pairs in terms of similarity score. 
+Similarity measure used is  Cosine similarity.
+
+Input:
+-----
+Download the MovieLens 100K data from
+http://grouplens.org/datasets/movielens/
+Format: User_ID <tab> Movie_ID <tab> Rating
+
+Output:
+------
+The outputs are files in which each line
+would be like:
+movieID_1, movieID_2, <similarity score>
